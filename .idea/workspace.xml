@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea90aef4-add2-405e-a381-85e33ba5683e" name="Default Changelist" comment="Add Class SSH, four function for StarOS, writefile function and made main logic&#10;- Class SSH - methods for work with paramiko&#10;- def writefile - write to file&#10;- def min11asr4 - work with min11asr4&#10;- def min77um1sae - work with min77um1sae&#10;- def min77um2sae1 - work with min77um2sae1&#10;- def min77um2sae2 - work with min77um2sae2&#10;- def main - main logic&#10;&#10;Add workspaсe.xml" />
+    <list default="true" id="ea90aef4-add2-405e-a381-85e33ba5683e" name="Default Changelist" comment="Add printing script status">
+      <change afterPath="$PROJECT_DIR$/dataratepandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datarate.py" beforeDir="false" afterPath="$PROJECT_DIR$/datarate.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,13 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599157641973</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add printing script status">
+      <created>1599158301587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599158301587</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add main file(datarate.py) and download paramiko" />
     <MESSAGE value="Add Class SSH, four function for StarOS, writefile function and made main logic&#10;- Class SSH - methods for work with paramiko&#10;- def writefile - write to file&#10;- def min11asr4 - work with min11asr4&#10;- def min77um1sae - work with min77um1sae&#10;- def min77um2sae1 - work with min77um2sae1&#10;- def min77um2sae2 - work with min77um2sae2&#10;- def main - main logic&#10;&#10;Add workspaсe.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Class SSH, four function for StarOS, writefile function and made main logic&#10;- Class SSH - methods for work with paramiko&#10;- def writefile - write to file&#10;- def min11asr4 - work with min11asr4&#10;- def min77um1sae - work with min77um1sae&#10;- def min77um2sae1 - work with min77um2sae1&#10;- def min77um2sae2 - work with min77um2sae2&#10;- def main - main logic&#10;&#10;Add workspaсe.xml" />
+    <MESSAGE value="Add printing script status" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add printing script status" />
   </component>
   <component name="WindowStateProjectService">
     <state x="371" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599155784893">
@@ -125,25 +137,25 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="410" y="66" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1599153677474" />
-    <state width="1259" height="274" key="GridCell.Tab.0.bottom" timestamp="1599157462630">
+    <state width="1259" height="274" key="GridCell.Tab.0.bottom" timestamp="1599161037682">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="274" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599157462630" />
-    <state width="1259" height="274" key="GridCell.Tab.0.center" timestamp="1599157462630">
+    <state width="1259" height="274" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599161037682" />
+    <state width="1259" height="274" key="GridCell.Tab.0.center" timestamp="1599161037682">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="274" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1599157462630" />
-    <state width="1259" height="274" key="GridCell.Tab.0.left" timestamp="1599157462629">
+    <state width="1259" height="274" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1599161037682" />
+    <state width="1259" height="274" key="GridCell.Tab.0.left" timestamp="1599161037682">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="274" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1599157462629" />
-    <state width="1259" height="274" key="GridCell.Tab.0.right" timestamp="1599157462630">
+    <state width="1259" height="274" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1599161037682" />
+    <state width="1259" height="274" key="GridCell.Tab.0.right" timestamp="1599161037682">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="274" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1599157462630" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1599157647522">
+    <state width="1259" height="274" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1599161037682" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1599158304879">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1599157647522" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1599158304879" />
   </component>
 </project>

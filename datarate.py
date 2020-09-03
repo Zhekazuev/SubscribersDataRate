@@ -5,6 +5,7 @@ from config import ASRS
 from datetime import datetime
 import paramiko
 import time
+import os
 
 
 class SSH:
@@ -134,7 +135,7 @@ def writefile(text, filename):
     """
     Write a file using
     """
-    with open(f"{filename}.txt", "a") as file_handler:
+    with open(f"{os.path.abspath(os.getcwd())}\{filename}.txt", "a") as file_handler:
         file_handler.write(text)
 
 
