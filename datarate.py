@@ -144,6 +144,7 @@ def main():
     writefile(min77um1sae(), f"min77um1sae_{file_time}")
     writefile(min77um2sae1(), f"min77um2sae1_{file_time}")
     writefile(min77um2sae2(), f"min77um2sae2_{file_time}")
+    print("Getting subscribers Data Rate successful")
 
 
 if __name__ == '__main__':

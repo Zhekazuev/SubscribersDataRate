@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea90aef4-add2-405e-a381-85e33ba5683e" name="Default Changelist" comment="Add main file(datarate.py) and download paramiko">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datarate.py" beforeDir="false" afterPath="$PROJECT_DIR$/datarate.py" afterDir="false" />
-    </list>
+    <list default="true" id="ea90aef4-add2-405e-a381-85e33ba5683e" name="Default Changelist" comment="Add Class SSH, four function for StarOS, writefile function and made main logic&#10;- Class SSH - methods for work with paramiko&#10;- def writefile - write to file&#10;- def min11asr4 - work with min11asr4&#10;- def min77um1sae - work with min77um1sae&#10;- def min77um2sae1 - work with min77um2sae1&#10;- def min77um2sae2 - work with min77um2sae2&#10;- def main - main logic&#10;&#10;Add workspaсe.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,12 +93,20 @@
       <option name="project" value="LOCAL" />
       <updated>1599153833856</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Class SSH, four function for StarOS, writefile function and made main logic&#10;- Class SSH - methods for work with paramiko&#10;- def writefile - write to file&#10;- def min11asr4 - work with min11asr4&#10;- def min77um1sae - work with min77um1sae&#10;- def min77um2sae1 - work with min77um2sae1&#10;- def min77um2sae2 - work with min77um2sae2&#10;- def main - main logic&#10;&#10;Add workspaсe.xml">
+      <created>1599157641973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599157641973</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add main file(datarate.py) and download paramiko" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add main file(datarate.py) and download paramiko" />
+    <MESSAGE value="Add Class SSH, four function for StarOS, writefile function and made main logic&#10;- Class SSH - methods for work with paramiko&#10;- def writefile - write to file&#10;- def min11asr4 - work with min11asr4&#10;- def min77um1sae - work with min77um1sae&#10;- def min77um2sae1 - work with min77um2sae1&#10;- def min77um2sae2 - work with min77um2sae2&#10;- def main - main logic&#10;&#10;Add workspaсe.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Class SSH, four function for StarOS, writefile function and made main logic&#10;- Class SSH - methods for work with paramiko&#10;- def writefile - write to file&#10;- def min11asr4 - work with min11asr4&#10;- def min77um1sae - work with min77um1sae&#10;- def min77um2sae1 - work with min77um2sae1&#10;- def min77um2sae2 - work with min77um2sae2&#10;- def main - main logic&#10;&#10;Add workspaсe.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="371" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599155784893">
@@ -136,9 +141,9 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1259" height="274" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1599157462630" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1599153914400">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1599157647522">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1599153914400" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1599157647522" />
   </component>
 </project>
